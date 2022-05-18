@@ -174,4 +174,20 @@ for i in range(n):
     string +=  (str(j(i+1))[2:]).upper().rjust(l+1, ' ')
   print(string)
 
+#%% ==================================================================
+#Alphabet Rangoli
+#=====================================================================
+n = 3
+alpha = "abcdfghijklmnopqrstuvwxyz"
+rangoli = "-".join(list(alpha[:n][::-1]  + alpha[1:n]))
+#for i in range(n):
+#  if i<n//2:
+#    print((j*'.|.').center(m, '-'))
+#    j = j + 2
+#  elif i>n//2:
+#    j = j - 2
+#    print((j*'.|.').center(m, '-'))
+#  else:
+#    print('WELCOME'.center(m, '-'))
+rangoli
 # %%
